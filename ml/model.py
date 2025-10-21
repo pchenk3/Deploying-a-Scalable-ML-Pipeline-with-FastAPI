@@ -63,8 +63,8 @@ def inference(model, X):
         Predictions from the model.
     """
     # TODO: implement the function
-    preds = model.predict(X)
-    return preds
+    return model.predict(X)
+    
 
 def save_model(model, path):
     """ Serializes model to a file.
